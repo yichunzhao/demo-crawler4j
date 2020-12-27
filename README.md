@@ -1,6 +1,6 @@
 # demo-crawler4j
 
-I want to figure out How we may extract expected information from web sites or pages programmatically?
+Some data may be not provided by APIs, but distributed among html pages; is it possible to extract and formulise them programmatically?
 
 ## What is Web Crawler
 
