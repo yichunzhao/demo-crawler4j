@@ -25,7 +25,7 @@ public class HtmlCrawler extends WebCrawler {
     @Override
     public void visit(Page page) {
         String url = page.getWebURL().getURL();
-        log.info("visited: ", url);
+        log.info(url);
 
         if (page.getParseData() instanceof HtmlParseData) {
             HtmlParseData htmlParseData = (HtmlParseData) page.getParseData();
@@ -36,10 +36,9 @@ public class HtmlCrawler extends WebCrawler {
 
             // do something with the collected data
 
-            log.info("title", title);
-            log.info("text: ", text);
-            log.info("html: ", html);
-
+            log.info(title);
+            log.info(String.valueOf(text.length()));
+            log.info(String.valueOf(html.length()));
         }
     }
 
