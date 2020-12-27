@@ -1,6 +1,6 @@
 # demo-crawler4j
 
-Some data may be not provided by APIs, but distributed among html pages; is it possible to extract and formulise them programmatically?
+Some data may be not provided by APIs, but distributed among html pages; is it possible to extract and formalise them programmatically?
 
 ## What is Web Crawler
 
