@@ -11,9 +11,9 @@ It is an internet bot or automatic indexer or web robot.
 * Automate maintenance tasks on a web site, such as checking links or validating HTML code
 
 ### How Crawler Works
-Step1: start from a list of URLs
-Step2: Fetch and parse URLs
-Step3: Extract URLs they point to
-Step4: Place the extracted URLs on Q
-Step5: Fetch each URL and repeating the same
+* Step1: start from a list of URLs
+* Step2: Fetch and parse URLs
+* Step3: Extract URLs they point to
+* Step4: Place the extracted URLs on Q
+* Step5: Fetch each URL and repeating the same
 
